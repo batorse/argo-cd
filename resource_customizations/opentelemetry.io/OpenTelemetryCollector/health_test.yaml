@@ -5,7 +5,7 @@ tests:
   inputPath: testdata/healthy.yaml
 - healthStatus:
     status: Healthy
-    message: ""
+    message: "The health of sidecar collectors can not be determined, since they start no pods"
   inputPath: testdata/healthy_sidecar.yaml
 - healthStatus:
     status: Degraded
